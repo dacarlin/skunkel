@@ -1,0 +1,37 @@
+{
+  "format": "python",
+  "license": "None",
+  "protocols": [
+    {
+      "version": "0.0.0",
+      "command_string": "python bullshit.py",
+      "name": "bull_shit",
+      "preview": {
+        "refs": {
+          "my_dna": {
+            "type": "micro-2.0",
+            "store": "cold_20"
+          }
+        },
+        "parameters": {
+          "mutants": {
+            "A123Z": [
+              "ATGTAGCTGCTACCGTAGCTAGCTAGCTAGCTG"
+            ],
+            "A123B": [
+              "ATGTAGCTGCTACGTAGCTAGCTAGCTAGCTG"
+            ]
+          },
+          "selection_antibiotic": "kanamycin",
+          "dna_aliquot": "my_dna/0"
+        }
+      },
+      "description": "Kunkel mutagenesis, \"bull shit\" version",
+      "inputs": {
+        "mutants": "string",
+        "selection_antibiotic": "string",
+        "dna_aliquot": "aliquot"
+      }
+    }
+  ]
+}
