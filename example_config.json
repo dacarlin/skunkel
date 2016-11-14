@@ -1,0 +1,63 @@
+{
+  "parameters": {
+    "selection_antibiotic": "kanamycin",
+    "mutants": {
+      "L171N": [
+        "ACCGGTGCCATAACCGTTAATGCTTGCACAATA"
+      ],
+      "H178C": [
+        "TTCATGACCCGGTGCGCATTCACCGGTGCCATA"
+      ],
+      "T175H": [
+        "CGGTGCATGTTCACCATGGCCATAACCCAGAAT"
+      ],
+      "H178W": [
+        "TTCATGACCCGGTGCCCATTCACCGGTGCCATA"
+      ],
+      "M10Q": [
+        "GGTGCTGGTGCCCCACTGAAAGGTTGCCGGAAA"
+      ],
+      "H328N": [
+        "ATAGAAGCTTTCCGGGTTAATTTCCCAACCCAT"
+      ],
+      "Y295W": [
+        "AATAATGCTACGGGTCCAATAGTTAATGCCCAG"
+      ],
+      "H119Q": [
+        "CTGCGGCAGATCCCACTGATACAGGGTCAGCAT"
+      ],
+      "E406V": [
+        "ATAACCCCATGCCCACACAAAGTTATCCAGAAA"
+      ],
+      "I20C": [
+        "ATCGGTGCCACCTTCGCACTGATAGCTGCTGGT"
+      ],
+      "Y166K": [
+        "CAGAATGCTTGCACATTTCGGTTCATTGATGGT"
+      ],
+      "N293Y": [
+        "GCTACGGGTATAATAATAAATGCCCAGAAAATC"
+      ],
+      "Y118F": [
+        "CGGCAGATCCCAATGAAACAGGGTCAGCATCGG"
+      ],
+      "A306N": [
+        "AACTTGCAGCAGGCTGTTATCATTGGTGCTGCG"
+      ],
+      "W120N": [
+        "CCACTGCGGCAGATCGTTATGATACAGGGTCAG"
+      ],
+      "T352V": [
+        "TGCTGCACCATTTTCCACAATCAGGATCGGCAG"
+      ]
+    },
+    "dna_aliquot": "my_dna/0"
+  },
+  "refs": {
+    "my_dna": {
+      "store": "cold_20",
+      "type": "micro-2.0",
+      "id": "ct193nt4f28g46"
+    }
+  }
+}

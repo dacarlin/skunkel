@@ -1,37 +1,79 @@
 {
-  "format": "python",
-  "license": "None",
+  "license": "GPL",
   "protocols": [
     {
-      "version": "0.0.0",
+      "description": "Kunkel mutagenesis, \"bull shit\" version",
       "command_string": "python bullshit.py",
-      "name": "bull_shit",
+      "version": "0.0.0",
       "preview": {
+        "parameters": {
+          "selection_antibiotic": "kanamycin",
+          "mutants": {
+            "L171N": [
+              "ACCGGTGCCATAACCGTTAATGCTTGCACAATA"
+            ],
+            "H328N": [
+              "ATAGAAGCTTTCCGGGTTAATTTCCCAACCCAT"
+            ],
+            "T175H": [
+              "CGGTGCATGTTCACCATGGCCATAACCCAGAAT"
+            ],
+            "T352V": [
+              "TGCTGCACCATTTTCCACAATCAGGATCGGCAG"
+            ],
+            "M10Q": [
+              "GGTGCTGGTGCCCCACTGAAAGGTTGCCGGAAA"
+            ],
+            "H178C": [
+              "TTCATGACCCGGTGCGCATTCACCGGTGCCATA"
+            ],
+            "Y295W": [
+              "AATAATGCTACGGGTCCAATAGTTAATGCCCAG"
+            ],
+            "H119Q": [
+              "CTGCGGCAGATCCCACTGATACAGGGTCAGCAT"
+            ],
+            "E406V": [
+              "ATAACCCCATGCCCACACAAAGTTATCCAGAAA"
+            ],
+            "I20C": [
+              "ATCGGTGCCACCTTCGCACTGATAGCTGCTGGT"
+            ],
+            "Y166K": [
+              "CAGAATGCTTGCACATTTCGGTTCATTGATGGT"
+            ],
+            "N293Y": [
+              "GCTACGGGTATAATAATAAATGCCCAGAAAATC"
+            ],
+            "Y118F": [
+              "CGGCAGATCCCAATGAAACAGGGTCAGCATCGG"
+            ],
+            "A306N": [
+              "AACTTGCAGCAGGCTGTTATCATTGGTGCTGCG"
+            ],
+            "W120N": [
+              "CCACTGCGGCAGATCGTTATGATACAGGGTCAG"
+            ],
+            "H178W": [
+              "TTCATGACCCGGTGCCCATTCACCGGTGCCATA"
+            ]
+          },
+          "dna_aliquot": "my_dna/0"
+        },
         "refs": {
           "my_dna": {
             "type": "micro-2.0",
             "store": "cold_20"
           }
-        },
-        "parameters": {
-          "mutants": {
-            "A123Z": [
-              "ATGTAGCTGCTACCGTAGCTAGCTAGCTAGCTG"
-            ],
-            "A123B": [
-              "ATGTAGCTGCTACGTAGCTAGCTAGCTAGCTG"
-            ]
-          },
-          "selection_antibiotic": "kanamycin",
-          "dna_aliquot": "my_dna/0"
         }
       },
-      "description": "Kunkel mutagenesis, \"bull shit\" version",
       "inputs": {
         "mutants": "string",
         "selection_antibiotic": "string",
         "dna_aliquot": "aliquot"
-      }
+      },
+      "name": "bull_shit"
     }
-  ]
+  ],
+  "format": "python"
 }
